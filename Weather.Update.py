@@ -4,7 +4,7 @@ import keys
 import requests
 
 
-API_KEY = "5968f0303201c12403b102bee97046d6"
+API_KEY = "____"
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather?"
 CITY = "Cochran"
 
@@ -28,11 +28,11 @@ weather_info = (f"Temperature: {temperature_f}\u00b0F "
 
 # twilio id and numbers
 
-account_sid = 'ACe284ba79fd2003fac5d94c53c37710aa'
-auth_token = 'd92085afa05a1a9b429ef8358a799be2'
+account_sid = '______'
+auth_token = '_____'
 
-twilio_number = '+18662798804'
-target_number = '+19125152268'
+twilio_number = '____'
+target_number = '____'
 
 client = Client(keys.account_sid, keys.auth_token)
 
